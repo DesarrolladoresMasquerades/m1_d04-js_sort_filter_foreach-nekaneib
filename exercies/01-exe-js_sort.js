@@ -2,14 +2,25 @@
 
 //Exercise 1: Using the array (arrOfStrings), sort an array from shortest string to the longest.
 // DO NOT mutate the original array
+
+/*
 const arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
 
+
 const longestStr = (arr) => {
-   //your code...
+
+   function longStr(arr1, arr2){
+   if(arr1.length < arr2.length) return -1
+   if(arr1.length === arr2.length)  return 0
+   if(arr1.length > arr2.length) return 1
+   }
+    return arr.sort(longStr)
 }
 
 let longestStrings = longestStr(arrOfStrings)
 console.log(longestStrings)
+
+*/
 
 //ANSWER should be ['yo', 'cat', 'wolf', 'animal']
 
@@ -17,9 +28,13 @@ console.log(longestStrings)
 // DU NOT mutate the original array
 
 const arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
+const myArrBefore = arrOfStrings
 
 const sortedStr = (arr) => {
-   //your code...
+   const myArrBefore = arr
+   const arrSorted = arr.sort()
+   arr = 
+   return arrOfStrings.sort()
 }
 
 let sortedStrings = sortedStr(arrOfStrings)
